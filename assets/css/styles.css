@@ -229,6 +229,7 @@ p {
 .main-wrapper .author-me{
   margin-bottom: 10px;
   font-weight: 500;
+  font: italic;
 }
 .main-wrapper .paper-title {
   color: #3F4650;
