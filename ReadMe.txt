@@ -1,4 +1,4 @@
-Free Bootstrap Resume/CV Template for developers
+Homepage for Sungho Jeon.
 
 Theme name:
 =======================================================================
