@@ -57,6 +57,15 @@
             .main-wrapper .section { margin-bottom: 24px; }
             .item { break-inside: avoid; }
         }
+  
+        /* Original 3:4 ratio; crop ends above the ketchup packets. */
+        .profile-frame { width: 100%; aspect-ratio: 3 / 4; overflow: hidden; margin: 0 auto 15px; }
+        .sidebar-wrapper .profile-frame .profile {
+            display: block; width: 176.11111111% !important; max-width: none;
+            height: auto; margin: 0; transform: translate(-28.91692955%, -22.27917981%);
+        }
+        @media (max-width: 767.98px) { .profile-frame { width: 200px; } }
+        @media print { .profile-frame { display: none; } }
   </style>
  </head>
  <body>
@@ -66,7 +75,9 @@
   <div class="wrapper">
    <div class="sidebar-wrapper">
     <div class="profile-container">
-     <img alt="Sungho Jeon" class="profile" src="assets/images/profile_alumni19.jpg" style="width: 100%; object-fit: contain"/>
+     <div class="profile-frame">
+      <img alt="Sungho Jeon" class="profile" src="profile-sungho-original.jpg"/>
+     </div>
      <h1 class="name">
       Sungho Jeon
      </h1>
